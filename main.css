@@ -1,0 +1,38 @@
+header {
+    background-color: black;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 32px;
+    color: white;
+    margin-left: 38%;
+}
+
+form {
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 32px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+form label {
+    font-size: 25px;
+}
+
+#botao-enviar {
+    margin-left: 15%;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#botao-enviar:hover {
+    background-color: rgb(48, 45, 45);
+}

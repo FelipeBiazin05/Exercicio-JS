@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Formulario Da EBAC</h1>
+        </div>
+    </header>
+    <form>
+        <label for="campoA">Campo A</label>
+        <input type="number" required name="CampoA" id="campoA"><br>
+        <label for="campoB">Campo B</label>
+        <input type="number" required name="CampoB" id="campoB"><br>
+        <button onclick="verificar()" id="botao-enviar" type="submit">Enviar</button>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>
